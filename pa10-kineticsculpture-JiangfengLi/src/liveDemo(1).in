@@ -1,0 +1,22 @@
+delay: 1
+input: RED, BLUE, PURPLE, YELLOW, GREEN, RED, RED
+0: passthrough, (400, 450) 
+1: passthrough, (400,350)
+7: input, (400, 400) 
+2:passthrough,(400,250)
+3: passthrough, (400, 150)
+4: passthrough, (140, 		100)
+5: passthrough, 		(200,200)
+6: sink, (50, 50)
+8: passthrough, (0, 0)
+7 -> 1
+7 -> 2
+7 -> 3
+7 ->	 0
+1 -> 5
+2 -> 5
+3 -> 4
+4 -> 6
+5 -> 6
+6 -> 8
+
